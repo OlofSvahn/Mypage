@@ -1,3 +1,113 @@
+body{
+    background-color: rgb(178, 193, 194);
+}
+
 .wrapper{
-    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.wrapper header{
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color:grey;
+    font-size: 16px;
+}
+
+header section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+header section img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 40rem;
+}
+
+header section article{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 2rem;
+}
+
+header section article h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+header section article h2{
+    font-size: 30px;
+    margin-top: 0.5rem;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .s1 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+main .s1 article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgb(184, 171, 171);
+    width: 150px;
+    height: 250px;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+main .s1 article h2{
+    color: white;
+    margin-top: auto 0 0 0;
+}
+
+main .s1 > article p {
+    color:white;
+    margin: 0.1rem;
 }
