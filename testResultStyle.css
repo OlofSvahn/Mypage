@@ -6,7 +6,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
-form{
+body div{
     background-color: white;
     width: 350px;
     display: flex;
@@ -14,17 +14,32 @@ form{
     align-items: center;
     flex-direction: column;
     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
     box-shadow:rgb(15, 14, 14);
     border-radius: 0.8rem;
 }
-form input, form select{
-    max-width: 220px;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    box-shadow: rgb(32, 30, 30);
+body div section{
+    background-color: rgb(173, 224, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 260px;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px 3px #ccc;
+    border-radius: 0.8rem;
 }
 
-form label, form label{
-    font-size: 18px;
+body div section h2{
+    margin-top: 0.5rem;
+}
+
+body div .sec2 h2{
+    font-size: 23px;
+} 
+
+body div section p{
+    margin-left: 0.1rem;
+    text-align: center;
 }
