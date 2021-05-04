@@ -23,7 +23,6 @@ let dumbchoices = [
 document.getElementById("fullname").innerHTML = "Here's your result, " + firstname;
 
 let infoString = "First name: " + firstname + 
-"<br>" + "Email: " + email +
 "<br>" + "Birthdate: " + birthdate;
 
 let stupidinfo = "";

@@ -1,7 +1,6 @@
 function Validate()
 {
     let firstname = document.forms["form"]["firstname"].value;
-    let email = document.forms["form"]["email"].value;
     let password = document.forms["form"]["password"].value;
     let choice = document.forms["form"]["dumbchoice"].value;
 
@@ -12,18 +11,11 @@ function Validate()
     let age = currentYear - birthYear;
 
     let lettersRegex = /^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/;
-    let emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
     let passwordRegex = /^^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
     if(!firstname.match(lettersRegex))
     {
         alert("Name cannot contain numbers!");
-        return false;
-    }
-
-    if(!email.match(emailRegex))
-    {
-        alert("Email is incorrect!");
         return false;
     }
 

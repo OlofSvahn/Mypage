@@ -108,18 +108,36 @@ main .s1 article{
     padding: 1rem;
 }
 
-main .s1 article h2{
-    color: rgb(58, 54, 54);
+main .s1 .a1 h2{
+    color: rgb(41, 38, 38);
     margin-top: auto 0 0 0;
     text-align: center;
     font-size: 30px;
 }
 
+main .s1 .a2 h2{
+    color: rgb(26, 24, 24);
+    margin-top: auto 0 0 0;
+    text-align: center;
+    font-size: 25px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
 main .s1 article a{
-    color: rgb(58, 54, 54);
+    color: rgb(41, 38, 38);
     text-decoration: none;
+    font-weight: 1000;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 0.2rem
 }
 
 main .s1 .a1{
     background-image: url(https://github.com/OlofSvahn/Mypage/blob/main/blurry.jpg?raw=true);
+}
+
+main .s1 .a2{
+    background-image:url(https://github.com/OlofSvahn/Mypage/blob/main/SP/donkey-2996965__340.jpg?raw=true);
+    background-position: center;
 }
