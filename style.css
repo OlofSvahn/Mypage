@@ -28,13 +28,14 @@ header nav{
 header nav a{
     text-decoration: none;
     color:grey;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 header section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: auto;
     padding: 2rem;
 }
@@ -50,8 +51,7 @@ header section article{
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    width: 250px;
-    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 header section article h1{
@@ -60,10 +60,17 @@ header section article h1{
     margin: auto;
 }
 
-header section article h2{
-    font-size: 30px;
-    margin-top: 0.5rem;
-    margin: auto;
+header section article p{
+    background-color: rgb(201, 210, 211);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 25px;
+    margin-top: 1rem;
+    text-align: center;
+    max-width: 450px;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 main{
@@ -71,7 +78,6 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 600px;
     margin: auto;
 }
 
@@ -96,21 +102,22 @@ main .s1 article{
     align-items: center;
     flex-direction: column;
     background-color:  rgb(184, 171, 171);
-    width: 150px;
+    width: 190px;
     height: 250px;
     border-radius: 0.25rem;
     padding: 1rem;
 }
 
 main .s1 article h2{
-    color: rgb(71, 69, 69);
+    color: rgb(58, 54, 54);
     margin-top: auto 0 0 0;
     text-align: center;
+    font-size: 30px;
 }
 
-main .s1 > article p {
-    color: rgb(71, 69, 69);
-    margin: 0.1rem;
+main .s1 article a{
+    color: rgb(58, 54, 54);
+    text-decoration: none;
 }
 
 main .s1 .a1{
