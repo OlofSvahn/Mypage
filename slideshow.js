@@ -10,11 +10,11 @@ path[6] = "https://github.com/OlofSvahn/Mypage/blob/main/SP/donkey-534906__340.j
 path[7] = "https://github.com/OlofSvahn/Mypage/blob/main/SP/donkeys-5576167__340.jpg?raw=true";
 path[8] = "https://github.com/OlofSvahn/Mypage/blob/main/SP/donkeys-5576167__340.jpg?raw=true";
 
-function imageChange()
+function imageChange() 
 { 
 document.slide.src = path[i]; 
 if(i < path.length - 1) i++; 
-else i = 0; 
+else i = 0;
 setTimeout("imageChange()",3000); 
 } 
 window.onload=imageChange;
